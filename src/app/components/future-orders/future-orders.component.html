@@ -1,0 +1,32 @@
+<div class="orders" *ngIf="singleOrder">
+
+    <iframe class="map" id="preview" allowfullscreen="" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyAxsQnh65pAeun9qQAPVjomWJf-JGyBSwE&origin=Rothschild,12,Tel+Aviv&destination=Ha+Yesod,8,Tel+Aviv"></iframe>
+
+    <div class="circle-icon floating green-button">
+    <img  src="/assets/images/logo.PNG "  width="55" height="55" >
+</div>
+<div class="card-body">
+
+    <div class="circle-icon right ">
+        <a href="tel:{{singleOrder.client.phone}}">
+            <i class="material-icons icon">
+                local_phone
+            </i>
+        </a>
+    </div>
+
+    <div class="humanId">ID: {{singleOrder.humanId}}</div>
+    <div class="client-name">{{singleOrder.client.name}}</div>
+    <div class="address">{{singleOrder.address.street}}&nbsp;{{singleOrder.address.number}},{{singleOrder.address.city}}</div>
+
+    <hr>
+
+    <div class="from">
+        <app-date from="{{singleOrder.from}}" to="{{singleOrder.to}}"></app-date>
+    </div>
+</div>
+
+<div class="open-map">
+    <p>Open in google maps</p>
+</div>
+</div>

@@ -1,0 +1,25 @@
+ .spalsh {
+     height: 100%;
+     width: 100%;
+     background-color: rgba(66 97 144);
+ }
+
+ p {
+     color: white;
+     text-align: center;
+     font: Helvetica;
+     font-size: 20px;
+     font-weight: bold;
+ }
+
+ .the-icon {
+     padding-top: 35%;
+     padding-top: 25%;
+     position: relative;
+     text-align: center;
+ }
+
+ .material-icons.md-light {
+     color: rgba(255, 255, 255, 1);
+     font-size: 70px;
+ }

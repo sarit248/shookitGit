@@ -1,0 +1,105 @@
+.orders {
+    height:100%;
+}
+
+.map {
+    display: block;
+    width: 100%;
+    height: 50%;
+    margin-top: 0px;
+}
+
+.card-body {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.circle-icon {
+    box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
+    background: rgb(66, 97, 144);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    color: white;
+}
+
+.right {
+    float: right;
+    margin: 20px;
+}
+
+
+.client-name {
+    font: Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.address {
+    font: Helvetica;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.humanId {
+    font: Helvetica;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(153, 153, 153);
+}
+
+.from {
+    font: Helvetica;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.open-map {
+    height: 60px;
+    background-color: rgb(66 97 144);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-top: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+p {
+    text-align: center;
+    color: aliceblue;
+    font: Helvetica;
+    font-size: 17px;
+    font-weight: bold;
+    glyph-orientation-vertical: middle;
+    padding: 15px;
+}
+
+
+.floating{
+    position: absolute;
+    top: 43%;
+    left: 15px;
+}
+
+.green-button{
+    background-color: rgb(57 229 200);
+    width: 80px !important;
+    height: 80px !important;
+    margin-left:15px; 
+
+}
+
+img{
+    position: relative;
+    top: 18%;
+    left: 15%;
+}

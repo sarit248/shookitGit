@@ -1,0 +1,94 @@
+.container {
+    border: soloid gray;
+}
+
+.top {
+    background-color: rgb(44, 183, 161);
+    color: white;
+    font: Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-body {
+    float: left;
+    padding: 10px;
+    height: inherit;
+    float: left;
+    position: relative;
+    color: black;
+}
+
+.orderElement {
+    width: 170.5pt;
+    margin: 9pt;
+    Border: 2px solid rgb(7, 7, 7);
+}
+
+.allOrderElements {
+    height: 75pt;
+}
+
+.card-body {
+    float: left;
+    padding: 10px;
+    height: inherit;
+    float: left;
+    position: relative;
+    color: black;
+}
+
+.humanId {
+    font: Helvetica;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(153, 153, 153);
+}
+
+.client-name {
+    font: Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.address {
+    font: Helvetica;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.circle-icon {
+    box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
+    background: rgb(57, 229, 200);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    margin: 30px;
+}
+
+.icon {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    color: white;
+}
+
+.left {
+    float: left;
+    padding: 10px;
+}
+
+.right {
+    float: right;
+    padding: 10px;
+}
+
+.row {
+    padding-top: 10px
+}
+
+
+app headline {
+    color: white;
+}
